@@ -959,16 +959,19 @@ body {
 
 @media (max-width: 450px) {
   .blog__item-btn {
-    bottom: 27%;
+    bottom: 17%;
+    right: 1%;
   }
-  .blog__item-title {
-    margin-bottom: 30px;
-  }
+
   .blog__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
     margin-bottom: 180px;
+  }
+}
+@media (max-width: 375px) {
+  .blog__item-title {
+    margin-bottom: 20px;
   }
 }
